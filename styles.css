@@ -5,6 +5,11 @@ body {
     padding: 0;
 }
 
+h1{
+    text-align: center;
+    font-weight: 900;
+}
+
 #app {
     max-width: 800px;
     margin: 0 auto;
@@ -48,6 +53,7 @@ body {
 }
 
 .form input[type="submit"] {
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #3498db;
     border: none;
@@ -69,6 +75,7 @@ body {
 }
 
 .start-button {
+    margin-bottom: 20px;
     padding: 8px 16px;
     background-color: #3498db;
     border: none;
