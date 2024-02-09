@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f5f9;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#time {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#time #value {
+    font-size: 36px;
+    color: #333;
+}
+
+#time #taskName {
+    font-size: 24px;
+    color: #555;
+}
+
+#tasks-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 100px);
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.task {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f2f9fc;
+    border-radius: 4px;
+}
+
+.start-button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+    background-color: #2980b9;
+}
+
+.done {
+    color: #27ae60;
+    font-weight: bold;
+}
